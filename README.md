@@ -91,7 +91,7 @@ Desenvolver uma aplicação completa de e-commerce contendo:
 # Deploy Online
 
 ## Frontend
-(https://ecommerce-artesanal-m68cdwe75-cleiton-horalino-s-projects.vercel.app/)
+https://ecommerce-artesanal-m68cdwe75-cleiton-horalino-s-projects.vercel.app/
 
 ## Backend
 https://ecommerce-artesanal-cgo6.onrender.com
@@ -110,39 +110,65 @@ https://drive.google.com/file/d/1XNfNE6P_Wo7-9QC5TnXPZgxedyn3XV7N/view?usp=shari
 
 ```bash
 git clone https://github.com/cleitonhoralino/ecommerce-artesanal.git
+```
 
---------------------------
 ## Entrar no Backend
+
+```bash
 cd backend
-----
+```
 
 ## Instalar dependências
+
+```bash
 npm install
+```
 
 ## Criar arquivo .env
+
+```env
 MONGO_URI=SUA_STRING_MONGODB
 JWT_SECRET=sua_chave_jwt
 PORT=5000
+```
 
 ## Rodar backend
+
+```bash
 npm run dev
+```
 
 ## Entrar na pasta client
+
+```bash
 cd client
+```
 
 ## Instalar dependências
+
+```bash
 pnpm install
+```
 
 ## Rodar frontend
-pnpm run dev
 
-## Estrutura do Projeto
+```bash
+pnpm run dev
+```
+
+---
+
+# Estrutura do Projeto
+
+```bash
 backend/
 client/
 server/
 shared/
+```
 
-## Autor
+---
+
+# Autor
+
 Cleiton Horalino
-
-
