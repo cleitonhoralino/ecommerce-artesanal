@@ -142,7 +142,7 @@ client/
 server/
 shared/
 
-Autor
+## Autor
 Cleiton Horalino
 
 
